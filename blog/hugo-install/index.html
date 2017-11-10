@@ -143,50 +143,35 @@
 </ul>
 
 <h3 id="hugoのインストール">hugoのインストール</h3>
-
-<p><code>$ brew install hugo</code></p>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">$ brew install hugo</code></pre></div>
 <h3 id="hugoのバージョン確認">hugoのバージョン確認</h3>
-
-<p><code>$ hugo version</code></p>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">$ hugo version</code></pre></div>
 <h3 id="サイト-ディレクトリ-の作成">サイト（ディレクトリ）の作成</h3>
-
-<pre><code>$ hugo new site your-site-name
-$ cd your-site-name/;
-</code></pre>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">$ hugo new site your-site-name
+$ cd your-site-name/;</code></pre></div>
 <h3 id="テーマの追加">テーマの追加</h3>
 
 <p>まずはテーマを選択<br />
 <a href="http://themes.gohugo.io/" target="_blank">hugoのテーマ一覧</a></p>
 
-<p>好きなテーマを選び、<br />
-gitのアドレスをコピーして<br />
-次のコマンドを入力</p>
-
-<p><code>$ git clone https://github.com/lasseborly/anybodyhome.git themes/cocoa</code> (←テーマ名)</p>
-
+<p>好きなテーマを選び、gitのアドレスをコピーして次のコマンドを入力</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">$ git clone https://github.com/lasseborly/anybodyhome.git themes/cocoa (←テーマ名)</code></pre></div>
 <h3 id="config-tomlの設定">config.tomlの設定</h3>
 
 <p>テーマの詳細(github)ページ内にconfig.tomlのサンプルがあるので、<br />
 そちらを参考に設定します。コピペして変更を加えていくだけです。</p>
 
 <p>設定が終わったら一度ローカル環境で確認してみましょう。</p>
-
-<p><code>hugo server</code></p>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">$ hugo server</code></pre></div>
 <p>と入力するとローカルサーバーが立ちがります。<br />
 ブラウザのアドレスバーに<br />
-<a href="http://localhost:1313/" target="_blank">http://localhost:1313/</a>
+<a href="http://localhost:1313/" target="_blank">http://localhost:1313/</a><br />
 と入力するとページが確認できます。</p>
 
 <h3 id="記事を書く">記事を書く</h3>
 
 <p>ターミナルに</p>
-
-<p><code>$ hugo new post/my-new-post.md</code></p>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">$ hugo new post/my-new-post.md</code></pre></div>
 <p>と入力し新規エントリーを作成。<br />
 markdownで書いていきます。</p>
 
@@ -194,23 +179,21 @@ markdownで書いていきます。</p>
 
 <p>エントリーの入力が終わったら、
 ローカルサーバーで確認します。</p>
-
-<pre><code>$ cd docs/
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">$ cd docs/
 $ git init
 $ git remote add origin git@github.com:user_name/your_gh_pages.git
 $ git checkout -b gh-pages
 $ git add --all
-$ git commit -m'initial commit for gh-pages'
-$ git push origin gh-pages
-
-hugoを実行すると”docs”フォルダに公開用のファイルが書き出されます。
-1 まずはこのディレクトリへ移動します。
-2 gitの初期設定
-3 githubの設定
-4 gh-pagesのブランチを作成し、ブランチへ移動
-5 すべてをステージに上げる
-6 コミット
-7 プッシュ
+$ git commit -m&#39;initial commit for gh-pages&#39;
+$ git push origin gh-pages</code></pre></div>
+<pre><code>    hugoを実行すると”docs”フォルダに公開用のファイルが書き出されます。
+    1 まずはこのディレクトリへ移動します。
+    2 gitの初期設定
+    3 githubの設定
+    4 gh-pagesのブランチを作成し、ブランチへ移動
+    5 すべてをステージに上げる
+    6 コミット
+    7 プッシュ
 </code></pre>
 
 <p>という流れです。</p>
@@ -220,16 +203,12 @@ hugoを実行すると”docs”フォルダに公開用のファイルが書き
 で見られるようになります。</p>
 
 <p>2回目以降は</p>
-
-<p><code>$ hugo new post/my-new-post.md</code>
-で記事を追加し、</p>
-
-<pre><code>$ git checkout gh-pages
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">$ hugo new post/my-new-post.md</code></pre></div>
+<p>で記事を追加し、</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">$ git checkout gh-pages
 $ git add --all
-$ git commit -m'initial commit for gh-pages'
-$ git push origin gh-pages
-</code></pre>
-
+$ git commit -m&#39;initial commit for gh-pages&#39;
+$ git push origin gh-pages</code></pre></div>
 <p>でアップする。<br />
 という流れになるかと思います。</p>
 </div>
