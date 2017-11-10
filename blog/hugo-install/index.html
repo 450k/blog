@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang='ja'>
+
+<head>
+  <meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='description' content='hugo &#43; github pagesでブログを作る'>
+
+<meta property='og:title' content='hugo install | 450k'>
+<meta property='og:description' content='hugo &#43; github pagesでブログを作る'>
+<meta property='og:url' content='https://450k.github.io/blog/blog/hugo-install/'>
+<meta property='og:site_name' content='450k'>
+<meta property='og:type' content='article'><meta property='article:section' content='Blog'><meta property='article:tag' content='hugo'><meta property='article:tag' content='仕事'><meta property='article:tag' content='github'><meta property='article:tag' content='github pages'><meta property='article:published_time' content='2017-03-17T09:26:41&#43;09:00'/><meta property='article:modified_time' content='2017-03-17T09:26:41&#43;09:00'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@450k'>
+
+<meta name="generator" content="Hugo 0.30.2" />
+
+  <title>hugo install | 450k</title>
+  <link rel='canonical' href='https://450k.github.io/blog/blog/hugo-install/'>
+  
+  
+  <link rel='icon' href='/blog/favicon.ico'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700&subset=latin'>
+<link rel='stylesheet' href='/blog/assets/css/main.77da63e1.css'><link rel='stylesheet' href='/blog/css/custom.css'>
+</head>
+
+
+<body class='page type-blog'>
+  <div class='site'>
+
+    <a class='screen-reader' href='#main'>コンテンツへ</a>
+
+    <header id='header' class='header-container'>
+      <div class='header site-header'>
+        <nav id='main-menu' class='main-menu-container' aria-label='メインメニュー'>
+  <ul class='main-menu'>
+  <li>
+      <a href='/blog/'>Home</a>
+    </li>
+  <li>
+      <a href='/blog/blog/'>Blog</a>
+    </li>
+  <li>
+      <a href='/blog/staff_blog/'>idea&#43;</a>
+    </li>
+  <li>
+      <a href='/blog/about/'>About</a>
+    </li>
+  
+  </ul>
+</nav>
+
+        <div class='header-info'>
+          
+          <p class='site-title title'>450k</p>
+          
+          <p class='site-description subtitle'>Beyond the career as a web direcor</p>
+        </div>
+      </div>
+    </header>
+
+
+<main id='main' class='main'>
+  <article lang='ja' class='entry'>
+    <header class='header-container'>
+  <div class='header entry-header'>
+    <div class='header-info'>
+      <h1 class='title'>hugo install</h1>
+      
+<p class='subtitle'>hugo &#43; github pagesでブログを作る</p>
+
+
+    </div>
+    
+<div class='meta'>
+  <span class='posted-on'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+  <line x1="16" y1="2" x2="16" y2="6"/>
+  <line x1="8" y1="2" x2="8" y2="6"/>
+  <line x1="3" y1="10" x2="21" y2="10"/>
+  
+</svg>
+<span class='screen-reader'>投稿先 </span>
+  <time class='date' datetime='2017-03-17T09:26:41&#43;09:00'>2017, Mar 17</time>
+</span>
+
+  
+  
+<span class='reading-time'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <circle cx="12" cy="12" r="10"/>
+  <polyline points="12 6 12 12 15 15"/>
+  
+</svg>
+1 mins read
+</span>
+
+
+</div>
+
+
+  </div>
+</header>
+
+    
+    
+<details class='entry-toc'>
+  <summary class='toc-title'>
+    <span>目次</span>
+  </summary>
+  <nav id="TableOfContents">
+<ul>
+<li><a href="#hugo-github-pagesでブログを作る">hugo + github pagesでブログを作る。</a>
+<ul>
+<li>
+<ul>
+<li><a href="#開発環境環境">開発環境環境</a></li>
+<li><a href="#hugoのインストール">hugoのインストール</a></li>
+<li><a href="#hugoのバージョン確認">hugoのバージョン確認</a></li>
+<li><a href="#サイト-ディレクトリ-の作成">サイト（ディレクトリ）の作成</a></li>
+<li><a href="#テーマの追加">テーマの追加</a></li>
+<li><a href="#config-tomlの設定">config.tomlの設定</a></li>
+<li><a href="#記事を書く">記事を書く</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+</details>
+
+
+    <div class='entry-content'>
+  <h1 id="hugo-github-pagesでブログを作る">hugo + github pagesでブログを作る。</h1>
+
+<p>今回はHugoとgithub pagesを使ってシンプルなブログを構築してみます。</p>
+
+<p></p>
+
+<h3 id="開発環境環境">開発環境環境</h3>
+
+<ul>
+<li>macbook Air OS 10.12.3です。<br /></li>
+<li>node.js、及びhomebrewはインストール済み。</li>
+</ul>
+
+<h3 id="hugoのインストール">hugoのインストール</h3>
+
+<p><code>$ brew install hugo</code></p>
+
+<h3 id="hugoのバージョン確認">hugoのバージョン確認</h3>
+
+<p><code>$ hugo version</code></p>
+
+<h3 id="サイト-ディレクトリ-の作成">サイト（ディレクトリ）の作成</h3>
+
+<pre><code>$ hugo new site your-site-name
+$ cd your-site-name/;
+</code></pre>
+
+<h3 id="テーマの追加">テーマの追加</h3>
+
+<p>まずはテーマを選択<br />
+<a href="http://themes.gohugo.io/" target="_blank">hugoのテーマ一覧</a></p>
+
+<p>好きなテーマを選び、<br />
+gitのアドレスをコピーして<br />
+次のコマンドを入力</p>
+
+<p><code>$ git clone https://github.com/lasseborly/anybodyhome.git themes/cocoa</code> (←テーマ名)</p>
+
+<h3 id="config-tomlの設定">config.tomlの設定</h3>
+
+<p>テーマの詳細(github)ページ内にconfig.tomlのサンプルがあるので、<br />
+そちらを参考に設定します。コピペして変更を加えていくだけです。</p>
+
+<p>設定が終わったら一度ローカル環境で確認してみましょう。</p>
+
+<p><code>hugo server</code></p>
+
+<p>と入力するとローカルサーバーが立ちがります。<br />
+ブラウザのアドレスバーに<br />
+<a href="http://localhost:1313/" target="_blank">http://localhost:1313/</a>
+と入力するとページが確認できます。</p>
+
+<h3 id="記事を書く">記事を書く</h3>
+
+<p>ターミナルに</p>
+
+<p><code>$ hugo new post/my-new-post.md</code></p>
+
+<p>と入力し新規エントリーを作成。<br />
+markdownで書いていきます。</p>
+
+<p>マークダウン記法についてはまた別のエントリーで紹介します。</p>
+
+<p>エントリーの入力が終わったら、
+ローカルサーバーで確認します。</p>
+
+<pre><code>$ cd docs/
+$ git init
+$ git remote add origin git@github.com:user_name/your_gh_pages.git
+$ git checkout -b gh-pages
+$ git add --all
+$ git commit -m'initial commit for gh-pages'
+$ git push origin gh-pages
+
+hugoを実行すると”docs”フォルダに公開用のファイルが書き出されます。
+1 まずはこのディレクトリへ移動します。
+2 gitの初期設定
+3 gighub　の設定
+4 gh-pagesのブランチを作成し、ブランチへ移動
+5 すべてをステージ上げる
+6 コミット
+7 プッシュ
+</code></pre>
+
+<p>という流れです。</p>
+
+<p>すると
+<a href="https://user_name.github.io/your_gh_pages/" target="_blank">https://user_name.github.io/your_gh_pages/</a>
+で見られるようになります。</p>
+
+<p>2回目以降は</p>
+
+<p><code>$ hugo new post/my-new-post.md</code>
+で記事を追加し、</p>
+
+<pre><code>$ git checkout gh-pages
+$ git add --all
+$ git commit -m'initial commit for gh-pages'
+$ git push origin gh-pages
+</code></pre>
+
+<p>でアップする。<br />
+という流れになるかと思います。</p>
+</div>
+
+    
+<footer class='entry-footer-container'>
+  <div class='entry-footer'>
+  <div class='categories'>
+  <span class='taxonomyTerm-icon'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M22,19a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H9l2,3h9a2,2,0,0,1,2,2Z"/>
+  
+</svg>
+</span>
+  <span class='screen-reader'>カテゴリ: </span><a class='category' href='/categories/blog'>Blog</a></div>
+<div class='tags'>
+  <span class='taxonomyTerm-icon'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M20.59,13.41l-7.17,7.17a2,2,0,0,1-2.83,0L2,12V2H12l8.59,8.59A2,2,0,0,1,20.59,13.41Z"/>
+  <line x1="7" y1="7" x2="7" y2="7"/>
+  
+</svg>
+</span>
+  <span class='screen-reader'>Tags: </span><a class='tag' href='/tags/hugo'>Hugo</a>, <a class='tag' href='/tags/%E4%BB%95%E4%BA%8B'>仕事</a>, <a class='tag' href='/tags/github'>Github</a>, <a class='tag' href='/tags/github-pages'>github pages</a></div>
+
+  </div>
+</footer>
+
+
+  </article>
+  
+  
+</main>
+
+    <footer id='footer' class='footer-container'>
+      <div class='footer'>
+        <div class='social-menu-container'>
+  <nav aria-label='Social Menu'>
+    <ul class='social-menu'><li>
+        <a href='https://github.com/450k' target='_blank' rel='noopener'>
+          <span class='screen-reader'>Open Github account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='https://facebook.com/kei.buzz' target='_blank' rel='noopener'>
+          <span class='screen-reader'>Open Facebook account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='https://twitter.com/450k' target='_blank' rel='noopener'>
+          <span class='screen-reader'>Open Twitter account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='https://instagram.com/450k' target='_blank' rel='noopener'>
+          <span class='screen-reader'>Open Instagram account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+  <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/>
+  
+</svg>
+</a>
+      </li></ul>
+  </nav>
+</div>
+        <div class='copyright'>
+  <p>
+        
+      
+
+      Copyright &copy; 2017 kei yokoo. All rights reserved.
+  </p>
+</div>
+
+      </div>
+    </footer>
+
+  </div><script src='/blog/assets/js/main.f29c93b9.js'></script><script src='/blog/js/custom.js'></script></body>
+
+</html>
+

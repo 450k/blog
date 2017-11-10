@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on 450k</title>
+    <link>https://450k.github.io/blog/page/</link>
+    <description>Recent content in Pages on 450k</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    
+	<atom:link href="https://450k.github.io/blog/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://450k.github.io/blog/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://450k.github.io/blog/about/</guid>
+      <description>Hello! I&amp;rsquo;m K
+A web director based in Nagoya, Japan,
+trying to get out from the comfort zone
+and do something new to change my life.
+I’d like to die empty.
+ The greatest mistake you cam make in life is to be continually fearing you will make one.
+— Elbert Hubbard
+人生における最大の失敗は、失敗を恐れ続けることである。
+- エルバート　ハーバード
+ </description>
+    </item>
+    
+  </channel>
+</rss>
