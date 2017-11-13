@@ -4,12 +4,10 @@
   
   <url>
     <loc>https://450k.github.io/blog/</loc>
-    <lastmod>2017-03-17T09:26:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://450k.github.io/blog/blog/</loc>
-    <lastmod>2017-03-17T09:26:41+09:00</lastmod>
   </url>
   
   <url>
@@ -21,37 +19,7 @@
   </url>
   
   <url>
-    <loc>https://450k.github.io/blog/blog/hugo-install/</loc>
-    <lastmod>2017-03-17T09:26:41+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://450k.github.io/blog/categories/blog/</loc>
-    <lastmod>2017-03-17T09:26:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://450k.github.io/blog/categories/</loc>
-    <lastmod>2017-03-17T09:26:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://450k.github.io/blog/tags/github/</loc>
-    <lastmod>2017-03-17T09:26:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://450k.github.io/blog/tags/github-pages/</loc>
-    <lastmod>2017-03-17T09:26:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://450k.github.io/blog/tags/hugo/</loc>
-    <lastmod>2017-03-17T09:26:41+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -62,13 +30,6 @@
   
   <url>
     <loc>https://450k.github.io/blog/tags/</loc>
-    <lastmod>2017-03-17T09:26:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://450k.github.io/blog/tags/%E4%BB%95%E4%BA%8B/</loc>
-    <lastmod>2017-03-17T09:26:41+09:00</lastmod>
     <priority>0</priority>
   </url>
   

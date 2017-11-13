@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>hugo install</title>
+      <title>hugo &#43; github pagesでブログを作ろうう！</title>
       <link>https://450k.github.io/blog/blog/hugo-install/</link>
       <pubDate>Fri, 17 Mar 2017 09:26:41 +0900</pubDate>
       
@@ -20,6 +20,12 @@
       <description>&lt;h1 id=&#34;hugo-github-pagesでブログを作る&#34;&gt;hugo + github pagesでブログを作る。&lt;/h1&gt;
 
 &lt;p&gt;今回はHugoとgithub pagesを使ってシンプルなブログを構築してみます。&lt;/p&gt;
+
+&lt;h2 id=&#34;hugoとは&#34;&gt;hugoとは&lt;/h2&gt;
+
+&lt;p&gt;hugoはgolang製のStatic site generator(静的サイトジェネレーター）と呼ばれるものです。
+DBを必要としないので、一般的なCMSに比べて表示速度が早いのが特徴です。&lt;br /&gt;
+マークダウンも使えます。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
