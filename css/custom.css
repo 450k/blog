@@ -1,0 +1,6 @@
+/* Custom CSS */
+
+.main-menu li,
+.header-info .title {
+    text-transform: none;  
+  }
