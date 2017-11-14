@@ -132,6 +132,8 @@ DBを必要としないので、一般的なCMSに比べて表示速度が早い
 <li>node.js、及びhomebrewはインストール済み。</li>
 </ul>
 
+<p><a href="../github-new-repository/">githubのリポジトリの作り方</a></p>
+
 <h3 id="hugoのインストール">hugoのインストール</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">$ brew install hugo</code></pre></div>
 <h3 id="hugoのバージョン確認">hugoのバージョン確認</h3>
@@ -165,15 +167,16 @@ $ cd your-site-name/;</code></pre></div>
 <p>と入力し新規エントリーを作成。<br />
 markdownで書いていきます。</p>
 
-<p>マークダウン記法についてはまた別のエントリーで紹介します。</p>
+<p><a href="../how_to_write_markdown">マークダウン記法について</a></p>
 
-<p>エントリーの入力が終わったら、ローカルサーバーで確認します。
-<code>hugo server</code></p>
+<p>エントリーの入力が終わったら、
+<code>$ hugo server</code>
+で再度ローカルサーバーを起動し確認します。</p>
 
 <h3 id="githubへのアップロード">githubへのアップロード</h3>
 
 <p>確認ができたらいよいよページの公開です。
-<code>hugo</code> コマンドで書き出されたファイル（私はdocsに設定）をアップロードします。</p>
+<code>$ hugo</code> コマンドで書き出されたファイル（私はdocsに設定）をアップロードします。</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">$ cd docs/
 $ git init
 $ git remote add origin git@github.com:user_name/your_gh_pages.git
@@ -183,14 +186,14 @@ $ git commit -m&#39;initial commit for gh-pages&#39;
 $ git push origin gh-pages</code></pre></div>
 <p>[コマンドのざっくり説明]</p>
 
-<pre><code>    hugoを実行すると”docs”フォルダに公開用のファイルが書き出されます。
-    1 まずはこのディレクトリへ移動します。
-    2 gitの初期設定
-    3 githubの設定
-    4 gh-pagesのブランチを作成し、ブランチへ移動
-    5 すべてをステージに上げる
-    6 コミット
-    7 プッシュ
+<pre><code>  hugoを実行すると”docs”フォルダに公開用のファイルが書き出されます。
+  1 まずはこのディレクトリへ移動します。
+  2 gitの初期設定
+  3 githubの設定
+  4 gh-pagesのブランチを作成し、ブランチへ移動
+  5 すべてをステージに上げる
+  6 コミット
+  7 プッシュ
 </code></pre>
 
 <p>という流れです。</p>
@@ -239,8 +242,8 @@ $ git push origin gh-pages</code></pre></div>
   
 <nav class='entry-nav-container'>
   <div class='entry-nav'><div class='next-entry'>
-      <a href='/blog/blog/how_to_write_markdown/'>
-        <span class='screen-reader'>: </span>markdown記法（.mdファイル）メタのフォーマット<span aria-hidden='true'> <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+      <a href='/blog/blog/github-new-repository/'>
+        <span class='screen-reader'>: </span>github リポジトリの作り方<span aria-hidden='true'> <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <line x1="4" y1="12" x2="20" y2="12"/>
   <polyline points="14 6 20 12 14 18"/>

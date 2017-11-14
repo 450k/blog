@@ -6,16 +6,16 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <meta name='description' content='Markdow記法のメタ記述のフォーマット'>
 
-<meta property='og:title' content='markdown記法（.mdファイル）の書き方 | 450k'>
+<meta property='og:title' content='markdown記法（.mdファイル）メタのフォーマット | 450k'>
 <meta property='og:description' content='Markdow記法のメタ記述のフォーマット'>
-<meta property='og:url' content='https://450k.github.io/blog/blog/how_to_write_markdown/'>
+<meta property='og:url' content='https://450k.github.io/blog/blog/markdown_formatter/'>
 <meta property='og:site_name' content='450k'>
 <meta property='og:type' content='article'><meta property='article:section' content='Blog'><meta property='article:tag' content='markdown'><meta property='article:tag' content='meta'><meta property='article:tag' content='記法'><meta property='article:published_time' content='2017-11-14T10:03:05&#43;09:00'/><meta property='article:modified_time' content='2017-11-14T10:03:05&#43;09:00'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@450k'>
 
 <meta name="generator" content="Hugo 0.30.2" />
 
-  <title>markdown記法（.mdファイル）の書き方 | 450k</title>
-  <link rel='canonical' href='https://450k.github.io/blog/blog/how_to_write_markdown/'>
+  <title>markdown記法（.mdファイル）メタのフォーマット | 450k</title>
+  <link rel='canonical' href='https://450k.github.io/blog/blog/markdown_formatter/'>
   
   
   <link rel='icon' href='/blog/favicon.ico'>
@@ -64,7 +64,7 @@
     <header class='header-container'>
   <div class='header entry-header'>
     <div class='header-info'>
-      <h1 class='title'>markdown記法（.mdファイル）の書き方</h1>
+      <h1 class='title'>markdown記法（.mdファイル）メタのフォーマット</h1>
       
 <p class='subtitle'>Markdow記法のメタ記述のフォーマット</p>
 
@@ -108,18 +108,26 @@
     <div class='entry-content'>
   
 
-<h2 id="タイトルタグ">タイトルタグ</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"># h1タグ
-<span style="color:#75715e">##</span> h2タグ
-<span style="color:#75715e">###</span> h3タグ
-#### h4タグ</code></pre></div>
-<h2 id="画像の挿入">画像の挿入</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">![画層] (file/to/image/path.png)</code></pre></div>
-<h2 id="テキストリンク">テキストリンク</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">[<span style="color:#f92672">リンクテキスト</span>](<span style="color:#a6e22e">http://www.example.com</span>)</code></pre></div>
-<h2 id="太字">太字</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">**太字にしたいテキスト**</code></pre></div>
-<p>とりあえずこれだけあればページが作れます。</p>
+<p>使っているテンプレートによって異なるので注意が必要です。<br />
+(記述間違によるコンパイルエラーが出て困ったのでメモ)</p>
+
+<p>+で区切る TOML Formatterと<br />
+-で区切る YAML Formatterがある。</p>
+
+<h3 id="toml-formatter">TOML Formatter</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#960050;background-color:#1e0010">+++</span>
+<span style="color:#a6e22e">parameter1</span> = <span style="color:#e6db74">&#34;値&#34;</span>
+<span style="color:#a6e22e">parameter2</span> = <span style="color:#66d9ef">true</span>
+<span style="color:#960050;background-color:#1e0010">+++</span></code></pre></div>
+<h3 id="yaml-formatter">YAML Formatter</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">---
+parameter<span style="color:#ae81ff">1</span>: <span style="color:#e6db74">&#34;値&#34;</span>
+parameter<span style="color:#ae81ff">2</span>: <span style="color:#66d9ef">true</span>
+---</code></pre></div>
+<p>どちらを使用しても問題ないが、パラメータと値をつなぐ記号が : と = で異なるので、
+混在してしまうとエラーの原因となるので注意。</p>
+
+<p>今回はYAML Formatter で統一することにしました。</p>
 
 </div>
 
@@ -144,7 +152,7 @@
   
 <nav class='entry-nav-container'>
   <div class='entry-nav'><div class='prev-entry'>
-      <a href='/blog/blog/markdown_formatter/'>
+      <a href='/blog/blog/github-new-repository/'>
         <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <line x1="20" y1="12" x2="4" y2="12"/>
@@ -152,7 +160,17 @@
   
 </svg>
  </span>
-        <span class='screen-reader'>: </span>markdown記法（.mdファイル）メタのフォーマット</a>
+        <span class='screen-reader'>: </span>github リポジトリの作り方</a>
+    </div><div class='next-entry'>
+      <a href='/blog/blog/how_to_write_markdown/'>
+        <span class='screen-reader'>: </span>markdown記法（.mdファイル）の書き方<span aria-hidden='true'> <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="4" y1="12" x2="20" y2="12"/>
+  <polyline points="14 6 20 12 14 18"/>
+  
+</svg>
+</span>
+      </a>
     </div></div>
 </nav>
 

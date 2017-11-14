@@ -12,11 +12,20 @@
     
     
     <item>
-      <title>markdown記法（.mdファイル）メタのフォーマット</title>
+      <title>markdown記法（.mdファイル）の書き方</title>
       <link>https://450k.github.io/blog/blog/how_to_write_markdown/</link>
       <pubDate>Tue, 14 Nov 2017 10:03:05 +0900</pubDate>
       
       <guid>https://450k.github.io/blog/blog/how_to_write_markdown/</guid>
+      <description>タイトルタグ # h1タグ ## h2タグ ### h3タグ #### h4タグ 画像の挿入 ![画層] (file/to/image/path.png) テキストリンク [リンクテキスト](http://www.example.com) 太字 **太字にしたいテキスト** とりあえずこれだけあればページが作れます。</description>
+    </item>
+    
+    <item>
+      <title>markdown記法（.mdファイル）メタのフォーマット</title>
+      <link>https://450k.github.io/blog/blog/markdown_formatter/</link>
+      <pubDate>Tue, 14 Nov 2017 10:03:05 +0900</pubDate>
+      
+      <guid>https://450k.github.io/blog/blog/markdown_formatter/</guid>
       <description>使っているテンプレートによって異なるので注意が必要です。
 (記述間違によるコンパイルエラーが出て困ったのでメモ)
 +で区切る TOML Formatterと
