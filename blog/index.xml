@@ -12,26 +12,27 @@
     
     
     <item>
+      <title>markdownのFront Matterについて</title>
+      <link>https://450k.github.io/blog/blog/markdown_formatter/</link>
+      <pubDate>Tue, 14 Nov 2017 10:03:05 +0900</pubDate>
+      
+      <guid>https://450k.github.io/blog/blog/markdown_formatter/</guid>
+      <description>(記述間違によるコンパイルエラーが出て困ったのでメモ)
+Front MatterとはYAMLやTOMLの記述で各ページのパラメータを設定するものです。
+※使っているテンプレートによって異なるので注意が必要です。
++で区切る TOML Front Matterと
+-で区切る YAML Front Matterがある。
+TOML Front Matter +++ parameter1 = &amp;#34;値&amp;#34; parameter2 = true +++ YAML Front Matter --- parameter1: &amp;#34;値&amp;#34; parameter2: true --- どちらを使用しても問題ないが、パラメータと値をつなぐ記号が : と = で異なるので、 混在してしまうとエラーの原因となるので注意。
+今回はYAML Formatter で統一することにしました。</description>
+    </item>
+    
+    <item>
       <title>markdown記法（.mdファイル）の書き方</title>
       <link>https://450k.github.io/blog/blog/how_to_write_markdown/</link>
       <pubDate>Tue, 14 Nov 2017 10:03:05 +0900</pubDate>
       
       <guid>https://450k.github.io/blog/blog/how_to_write_markdown/</guid>
       <description>タイトルタグ # h1タグ ## h2タグ ### h3タグ #### h4タグ 画像の挿入 ![画層] (file/to/image/path.png) テキストリンク [リンクテキスト](http://www.example.com) 太字 **太字にしたいテキスト** とりあえずこれだけあればページが作れます。</description>
-    </item>
-    
-    <item>
-      <title>markdown記法（.mdファイル）メタのフォーマット</title>
-      <link>https://450k.github.io/blog/blog/markdown_formatter/</link>
-      <pubDate>Tue, 14 Nov 2017 10:03:05 +0900</pubDate>
-      
-      <guid>https://450k.github.io/blog/blog/markdown_formatter/</guid>
-      <description>使っているテンプレートによって異なるので注意が必要です。
-(記述間違によるコンパイルエラーが出て困ったのでメモ)
-+で区切る TOML Formatterと
--で区切る YAML Formatterがある。
-TOML Formatter +++ parameter1 = &amp;#34;値&amp;#34; parameter2 = true +++ YAML Formatter --- parameter1: &amp;#34;値&amp;#34; parameter2: true --- どちらを使用しても問題ないが、パラメータと値をつなぐ記号が : と = で異なるので、 混在してしまうとエラーの原因となるので注意。
-今回はYAML Formatter で統一することにしました。</description>
     </item>
     
     <item>
