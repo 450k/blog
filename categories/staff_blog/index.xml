@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Staff_blog on 450k</title>
+    <link>https://450k.github.io/blog/categories/staff_blog/</link>
+    <description>Recent content in Staff_blog on 450k</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 14 Nov 2017 09:34:04 +0900</lastBuildDate>
+    
+	<atom:link href="https://450k.github.io/blog/categories/staff_blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>スタッフブログ Vol.2 | 情報収集TIPS</title>
+      <link>https://450k.github.io/blog/staff_blog/2017-11-14/</link>
+      <pubDate>Tue, 14 Nov 2017 09:34:04 +0900</pubDate>
+      
+      <guid>https://450k.github.io/blog/staff_blog/2017-11-14/</guid>
+      <description> 情報収集 SNSの活用 その他ウェブサービスの活用 番外編 アウトプット まとめ </description>
+    </item>
+    
+    <item>
+      <title>スタッフブログ Vol.1 | 情報共有</title>
+      <link>https://450k.github.io/blog/staff_blog/staffblog_20171102/</link>
+      <pubDate>Mon, 13 Nov 2017 17:30:32 +0900</pubDate>
+      
+      <guid>https://450k.github.io/blog/staff_blog/staffblog_20171102/</guid>
+      <description>第１回スタッフブログのテーマは「情報共有」です。 先日サイボウズLiveが2019年4月15日でサービスを終了すると発表しました。
+アイデアプラスでは数年前からサイボウズLiveを使っていまいたが、この発表を受け現在、代替サービスを探しているところです。
+ Trello Jooto Wunderlist Todoist Asana Backlog Redmine Chatwork Slack  私も前の職場でスケジュール管理ツール、タスク管理ツールの類を片っ端から試してみました。
+代替候補 社内SNSやタスク管理ツールも数多く存在しますが、
+私の中ではSlack, Backlog、Asanaの組み合わせでほぼカバーできるのではないかと思っていますが、 どちらも不慣れな方にはハードルが高いのかもしれませんね。
+結局のところ・・・ １つのサービスですべてを満たそうとすると、どうしても不便なところがでてきますので、
+2〜3つのサービスを組み合わせるのが良いかと思います。
+SlackをChatworkに、AsanaをTrelloに変えてもいいかと思います。</description>
+    </item>
+    
+  </channel>
+</rss>

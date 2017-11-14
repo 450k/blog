@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meta on 450k</title>
+    <link>https://450k.github.io/blog/tags/meta/</link>
+    <description>Recent content in Meta on 450k</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 14 Nov 2017 10:03:05 +0900</lastBuildDate>
+    
+	<atom:link href="https://450k.github.io/blog/tags/meta/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>markdown記法（.mdファイル）メタのフォーマット</title>
+      <link>https://450k.github.io/blog/blog/how_to_write_markdown/</link>
+      <pubDate>Tue, 14 Nov 2017 10:03:05 +0900</pubDate>
+      
+      <guid>https://450k.github.io/blog/blog/how_to_write_markdown/</guid>
+      <description>使っているテンプレートによって異なるので注意が必要です。
+(記述間違によるコンパイルエラーが出て困ったのでメモ)
++で区切る TOML Formatterと
+-で区切る YAML Formatterがある。
+TOML Formatter +++ parameter1 = &amp;#34;値&amp;#34; parameter2 = true +++ YAML Formatter --- parameter1: &amp;#34;値&amp;#34; parameter2: true --- どちらを使用しても問題ないが、パラメータと値をつなぐ記号が : と = で異なるので、 混在してしまうとエラーの原因となるので注意。
+今回はYAML Formatter で統一することにしました。</description>
+    </item>
+    
+  </channel>
+</rss>
