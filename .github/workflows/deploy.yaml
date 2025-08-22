@@ -24,7 +24,7 @@ jobs:
         uses: withastro/action@v3
         with:
           node-version: 20
-          package-manager: pnpm@9.12.3
+          # package-manager: pnpm@9.12.3
         # with:
           # path: . # リポジトリ内のAstroプロジェクトのルートロケーション。（オプション）
           # node-version: 20 # サイト構築に使用するNodeのバージョン。デフォルトは20です。（オプション）

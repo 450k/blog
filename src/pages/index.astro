@@ -47,13 +47,13 @@ const latestNotes = allNotes.sort(collectionDateSort).slice(0, MAX_NOTES);
 				<SocialList />
 			</div>
 			<div class="flex justify-center space-x-4 mt-4">
-				<a href="/posts/" class="relative flex items-center justify-center h-8 px-4 rounded-lg shadow-lg hover:brightness-110 transition-all bg-gradient-to-r from-accent-one to-accent-two">
+				<a href="/blog/posts/" class="relative flex items-center justify-center h-8 px-4 rounded-lg shadow-lg hover:brightness-110 transition-all bg-gradient-to-r from-accent-one to-accent-two">
 					<span class="text-bgColor font-semibold">
 						Read Blog
 					</span>
 				</a>
 
-				<!-- <a href="/notes/wake-up/" class="relative flex items-center justify-center h-8 px-4 rounded-lg shadow-lg bg-special-lighter hover:brightness-110 hover:bg-special-lightest">
+				<!-- <a href="/blog/notes/wake-up/" class="relative flex items-center justify-center h-8 px-4 rounded-lg shadow-lg bg-special-lighter hover:brightness-110 hover:bg-special-lightest">
 					<span class="bg-clip-text text-transparent font-semibold bg-gradient-to-r from-accent-one to-accent-two">
 						Wake up
 					</span>
@@ -65,7 +65,7 @@ const latestNotes = allNotes.sort(collectionDateSort).slice(0, MAX_NOTES);
 	<!-- Posts Section -->
 	<section aria-label="Blog post list" class="'mt-[-100vh] pt-[100vh]'">
 		<h2 class="title mb-6 text-xl text-accent-two">
-			<a href="/posts/">Posts</a>
+			<a href="/blog/posts/">Posts</a>
 		</h2>
 		<ul class="space-y-4 md:space-y-2" role="list">
 			{
@@ -83,7 +83,7 @@ const latestNotes = allNotes.sort(collectionDateSort).slice(0, MAX_NOTES);
 		latestNotes.length > 0 && (
 			<section class="mt-12">
 				<h2 class="title mb-6 text-accent-two">
-					<a href="/notes/">Notes</a>
+					<a href="/blog/notes/">Notes</a>
 				</h2>
 				<div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
 					{
