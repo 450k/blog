@@ -67,7 +67,7 @@ export default defineConfig({
           type: "image/png",
         },
       ],
-      start_url: "/",
+      start_url: "/blog/",
       background_color: "#1d1f21",
       theme_color: "#2bbc8a",
       display: "standalone",
@@ -115,8 +115,8 @@ export default defineConfig({
   // https://docs.astro.build/en/guides/prefetch/
   prefetch: true,
   // ! Please remember to replace the following site property with your own domain
-  site: "https://450k.github.io/blog/",
-  // base: '/blog',
+  site: "https://450k.github.io/",
+  base: '/blog',
   vite: {
     build: {
       sourcemap: true, // Source maps generation
