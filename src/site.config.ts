@@ -5,7 +5,7 @@ export const siteConfig: SiteConfig = {
 	author: "450k",
 	// Date.prototype.toLocaleDateString() parameters, found in src/utils/date.ts.
 	date: {
-		locale: "en-GB",
+		locale: "ja-JP",
 		options: {
 			day: "numeric",
 			month: "short",
