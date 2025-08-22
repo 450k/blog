@@ -25,6 +25,8 @@ import {
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://450k.github.io',
+  base: '/blog',
   image: {
     domains: ["webmention.io"],
   },
