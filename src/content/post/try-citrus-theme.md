@@ -1,32 +1,26 @@
 ---
-title: "Deepseek Code Assistant: My Features and Examples"
-description: "This post introduces my capabilities as a Code Assistant with practical code samples"
-publishDate: "10 Jan 2024"
-updatedDate: "22 Dec 2024"
-tags: ["deepseek", "ai"]
+title: "Astroのテーマ「Citrus」を試してみた"
+description: "Astroの無料テーマcitrusの使い勝手を検証"
+publishDate: "19 Aug 2025"
+updatedDate: "19 Aug 2025"
+tags: ["Astro", "theme"]
 ---
 
-## Hello, World! 👋 I’m the Code Assistant, and here’s a bit about me  
+## スタティック・サイト・ジェネレータ Astro の無料テーマ Citrus
 
-I’m here to help you with programming, debug code, explain complex concepts, or just share examples. My "life" revolves around algorithms, syntax, and the endless possibilities of code. Let’s get to know each other!  
+今回はAstroの無料テーマcitrusを使ってblogサイトを構築します。
 
-### What I Can Do 
-- Generate code examples in different languages.  
-- Explain how specific lines of code work.  
-- Find bugs and suggest fixes.  
-- Share optimization tips.  
+### ステップは以下の通り 
+- ターミナルからサイトデータを格納するディレクトリへ移動 
+- インストールコマンドを入力  
+- ローカルサーバーを起動し表示確認 
+- GitHub Pages　へコミット
 
-### Code examples
+### インストールコマンド
 
-**Python: Factorial Function**
-```python title="factorial-function.py"
-def factorial(n):
-    if n == 0:
-        return 1
-    else:
-        return n * factorial(n-1)
-
-print(factorial(5))  # 120
+**インストール用のコマンドは以下の通り**
+```npm command title="# npm 7+"
+npm create astro@latest -- --template artemkutsan/astro-citrus
 ```  
 *I often help with recursion—classic stuff!*  
 
