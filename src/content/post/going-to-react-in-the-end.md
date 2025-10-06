@@ -3,11 +3,7 @@ title: 結局、Reactに行き着く
 description: jsフレームワークは現状（日本なら）、React一択なように見えますが、実際はどうなのか。
 publishDate: 6 Oct 2025
 updatedDate:
-tags:
-  - React
-  - javascript
-  - framework
-  - Vue
+tags: ["React", "javascript", "framework", "Vue"]
 ---
 
 ## 結局、Reactに行き着く
