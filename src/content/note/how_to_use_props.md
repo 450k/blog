@@ -1,7 +1,7 @@
 ---
-title: タイトル
-description: ディスクリプション
-publishDate: "2025-08-17T19:00:00+09:00"
+title: Propsの使い方
+description: プロップスとその使い方
+publishDate: "2025-10-05T19:00:00+09:00"
 ---
 
 ## Propsの使い方について
@@ -32,3 +32,7 @@ In the `CoreConcept` component, you would then get that one single prop:
 3.   // Or destructure the concept object: const { title, description, image } = concept;
 4. }
 ```
+
+## Propsとは
+
+propertyを省略したもので詳細情報や設定、状態を指す。
